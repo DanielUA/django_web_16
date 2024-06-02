@@ -1,0 +1,8 @@
+{% extends 'app_photo/base.html' %}
+
+{% block body %}
+<div class="container mt-3">
+    <h1>Вы успешно вышли из системы</h1>
+    <a href="{% url 'app_auth:signin' %}">Войти снова</a>
+</div>
+{% endblock %}
